@@ -20,7 +20,7 @@ type UserData struct {
 }
 
 var wg = sync.WaitGroup{}
-
+/*
 func main() {
 
 	greetUsers()
@@ -57,7 +57,7 @@ func main() {
 	}
 	//}
 	wg.Wait()
-}
+}*/
 
 func greetUsers() {
 	fmt.Printf("Welcome to %v booking application\n", conferenceName)
